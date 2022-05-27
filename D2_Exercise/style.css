@@ -41,7 +41,7 @@ section {
 h1{
     font-size: medium;
 }
-.main p{
+.main p, li{
     font-size: xx-small;
     text-align: left;
 }
