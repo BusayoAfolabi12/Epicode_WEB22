@@ -51,11 +51,12 @@ h1{
 }
 .main span{
     font-size: xx-small;
+    font-size: xx-small;
     color: rgb(184, 183, 183);
 }
 
 .featured {
-    height: 50px;
+    line-height: 1px;
     border-left: 1px solid #f8d58e;
 }
 
@@ -65,7 +66,7 @@ div {
 
 li {
     line-height: 20px;
-    margin-top: ;
+    
 }
 
 h5{
