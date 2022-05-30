@@ -11,7 +11,9 @@ body
 section {
     height: 100%;
     background-color: #fff;
-    width: 700px;}
+    width: 700px;
+    padding-bottom: 5px;
+}
 
 .header img {
     width: 100px; 
