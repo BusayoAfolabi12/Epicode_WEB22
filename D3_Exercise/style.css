@@ -54,6 +54,7 @@ main {background-color: rgb(247, 244, 241);
     color: #fff;
     background-image:
     url("assets/bg-image.png");
+    background-size: contain;
     text-align: center;
 }
 
