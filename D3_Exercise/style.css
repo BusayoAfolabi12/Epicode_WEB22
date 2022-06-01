@@ -71,6 +71,7 @@ main {background-color: rgb(247, 244, 241);
     border-radius: 9%;
     object-fit: cover;
     opacity: 0.9;
+    filter: drop-shadow(3px 3px 3px rgb(214, 204, 193) );
 }
 
 .section1_images p , 
