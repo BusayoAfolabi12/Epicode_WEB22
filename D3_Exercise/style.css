@@ -51,12 +51,27 @@ main {background-color: rgb(247, 244, 241);
 .shopallday p {padding-top: 3px;
 }   
 
-.Holiday {height: 60px; 
+.top-backgroundimage {height: 60px; 
     color: #fff;
+    text-align: center;
+    
+}
+.Holiday{
+    height: 40px;
+    background-image:
+    url("assets/bg-image.png"); 
+    background-size: contain;
+    background-repeat: repeat-x;   
+}
+
+.go-gifter{
+    height: 20px;
     background-image:
     url("assets/bg-image.png");
     background-size: contain;
-    text-align: center;
+    
+    
+
 }
 
 .section1_images{background-color: #fff;
