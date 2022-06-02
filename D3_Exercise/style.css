@@ -57,8 +57,13 @@ main {background-color: rgb(247, 244, 241);
     background-size: contain;
     background-repeat: repeat-x;
     text-align: center;
+    line-height: 1px;
 }
 
+.Holiday p{
+    padding-top: 15px;
+    font-size: small;
+}
 
 .section1_images{background-color: #fff;
     height: 170px;
