@@ -33,7 +33,7 @@ section {background-color: #3a506b;
 /*               MAIN CSS                   */
 
 main {background-color: rgb(247, 244, 241);  
-    height: 1570px;
+    height: 1590px;
     padding-left: 2%; 
     padding-right: 2%; padding-top: 0.7%; 
     padding-bottom: 1%;}
@@ -68,7 +68,6 @@ main {background-color: rgb(247, 244, 241);
 .Holiday span{
     font-size: small;
     color: #fff;
-
 }
 
 .section1_images{background-color: #fff;
@@ -124,8 +123,27 @@ main span {color: #5dc8e9;
     width: 100%;
     opacity: 0.9;
 } 
+.section2_images{
+    margin-top: 20px;
+}
 .section4_images{
     height: 350px;
+    
+}
+
+.photogrid{
+    height: 100%;
+    width: 286px;
+    background-color: white;
+    display: inline-block;
+    margin-right: 11px;
+    box-sizing: border-box;
+    padding-left: 15px;
+}
+
+.photogrid p{
+    font-size: x-small;
+
 }
 
 
