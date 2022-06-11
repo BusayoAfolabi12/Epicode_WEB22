@@ -138,12 +138,34 @@ main span {color: #5dc8e9;
     display: inline-block;
     margin-right: 11px;
     box-sizing: border-box;
-    padding-left: 15px;
+    padding-left: 11px;
 }
 
 .photogrid p{
     font-size: x-small;
+    padding-left: 4px;
+    
 
+}
+.section4_images span{
+    margin-top: 10px;
+}
+
+
+.innerdiv{
+    display: inline-block;
+    height: 120px;
+    width: 120px;
+    margin: 4px;
+    margin-bottom: 20px;
+}
+.innerdiv img{
+    height: 100px;
+    width: 120px;
+    
+}
+.innerdiv p{
+    margin-top: 1px;
 }
 
 
