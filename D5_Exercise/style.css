@@ -4,14 +4,39 @@
         
 }
 .container div {
-        width: 70px;
-        height: 60px;
-        border: 1px solid black;
-        display: inline-block;
+    width: 70px;
+    height: 60px;
+    border: 1px solid black;
+    display: inline-block;
+    position: relative;
 }
 
- div.container div :nth-child(even)  {
+div:nth-child(even) {
     border: 1px solid pink;
+}
 
-}   
+.container div:nth-child(odd) 
+span:nth-child(even) {
+    color: green;
+}
+
+.container div:nth-child(2) 
+span:last-of-type{
+    color: blue;
+}
+
+.container div:nth-child(6) 
+span:not(:last-of-type){
+    color: yellow;
+}
+
+span:first-child{
+    position: absolute;
+    bottom: -0;
+    
+}
+
+
+
+
 
