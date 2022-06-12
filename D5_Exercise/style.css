@@ -32,9 +32,39 @@ span:not(:last-of-type){
 
 span:first-child{
     position: absolute;
-    bottom: -0;
-    
+    bottom: -20px;
+    right: 30px;  
 }
+
+span:nth-child(2){
+    position: absolute;
+    top: -20px;
+    right: 30px;
+}
+
+.container div:last-of-type
+span:last-of-type{
+    position: absolute;
+    right: -20px;
+    top: 20px;
+}
+
+.container div:first-of-type
+span:last-of-type{
+    position: absolute;
+    left: -20px;
+    top: 20px;
+}
+
+.container  {
+    font-size:0;
+  }
+
+.container div {
+    font-size:1rem;
+  }
+
+
 
 
 
