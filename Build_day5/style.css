@@ -1,0 +1,12 @@
+.container {
+    margin-left: 4rem;
+    margin-top: 4rem;
+    
+}
+.container div {
+width: 70px;
+height: 60px;
+border: 1px solid black;
+display: inline-block;
+
+}
