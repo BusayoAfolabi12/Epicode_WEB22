@@ -16,55 +16,68 @@ h1{
     width: 50px;
     float: left;
     position: relative;
+    
 }
-span {
-  position: absolute;
-}
+/*span {
+    position: absolute;
+    
+}*/
+
+span:first-child{
+    position: absolute;
+    top: -20px;
+    right: 30px;}
+
+span:last-child{
+    position: absolute;
+    bottom: 15px;
+    right: 30px;}
+
 .board > .column1 .square:nth-child(even) {
-  background-color: black;
+  background-color: brown;
 }
 .board > .column1 .square:nth-child(odd) {
   background-color: green;
 }
 
 .board > .column2 .square:nth-child(odd) {
-  background-color: black;
+  background-color: brown;
 }
 .board > .column2 .square:nth-child(even) {
   background-color: green;
 }
 .board > .column3 .square:nth-child(even) {
-    background-color: black;
+    background-color: brown;
 }
 .board > .column3 .square:nth-child(odd) {
     background-color: green;
 }
 .board > .column4 .square:nth-child(odd) {
-    background-color: black;
+    background-color: brown;
 }
 .board > .column4 .square:nth-child(even) {
     background-color: green;
 }
 .board > .column5 .square:nth-child(even) {
-    background-color: black;
+    background-color: brown;
 }
 .board > .column5 .square:nth-child(odd) {
     background-color: green;
 }
 .board > .column6 .square:nth-child(odd) {
-    background-color: black;
+    background-color: brown;
 }
 .board > .column6 .square:nth-child(even) {
     background-color: green;
 }
 .board > .column7 .square:nth-child(even) {
-    background-color: black;
+    background-color: brown;
 }
 .board > .column7 .square:nth-child(odd) {
     background-color: green;
 }
 .board > .column8 .square:nth-child(odd) {
-    background-color: black;
+    background-color: brown;
 }
 .board > .column8 .square:nth-child(even) {
     background-color: green;
