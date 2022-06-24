@@ -12,12 +12,25 @@ ASSIGNMENT RULES
 */
 
 /* WRITE YOUR ANSWER HERE */
+//There are five(5) common datatypes
+
+// 1. number: JavaScript has only one numberType(positive,negative,integers,decimal) e.g 16, -4, 3.945
+
+//2. string: Are used to represent text, they must be wrapped in quotes(""/''/) or template literal(``) e.g "cat", "56"
+
+//3. boolean: These accept conditional statements can only either be one value true or false
+
+//4. undefined:  This define variables with neither assignment/value e.g let countryName
+
+//5. null: This represents intentional absence, removal of value(with assignment and null value) e.g let cityName = null
 
 /* EXERCISE 2
  Try to describe what an object is, in your own words.
 */
 
 /* WRITE YOUR ANSWER HERE */
+
+// Objects are key-value pair to represent a single entity
 
 /* EXERCISE 3
  Write the code to execute an addition (a sum) of the numbers 12 and 20.
@@ -37,7 +50,6 @@ console.log(sum);
 /* WRITE YOUR ANSWER HERE */
 
 let x = 12;
-
 
 /* EXERCISE 5
  Create a variable called name and assign to it your name as a string.
@@ -70,7 +82,9 @@ Create two variables: name1 and name2. Assign to name1 the string "john", and to
 let name1 = "john";
 let name2 = "John";
 
-name1 === name2
+console.log(name1 === name2);
+
+console.log(name1 === "john");
 
 /* WHEN YOU ARE FINISHED
  Upload the .js file on Eduflow before 5PM CET. In the next days we'll also learn how to use GIT!
