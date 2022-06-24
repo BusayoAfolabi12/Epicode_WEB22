@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+
+        /* EXERCISE 2
+        
+        -- You are trying to estimate the total worth of your garage and you're going to create a simple algorithm that calculates it
+    
+        1) Create a variable to get the number of cars, inside you will save the result of a prompt() function that asks the user how many cars he/she has in the garage
+        2) Next, create anotehr variable to ask the user how much a car is worth these days on average, in the same way as before, by using the prompt() function
+        3) Do the same for motorbikes and bikes
+    
+        4) Create 3 variables to hold the value of cars, motorbikes and bikes by multiplying the number of each by the average of each
+        5) Create a totalGarageValue variable that sums the three values together
+        6) Use an alert() function to display the garage worth in the end with a nice message
+    */
+        const numberOfCars = prompt("How many cars do you have in your garage?", "Number of Cars")
+        const averageCarWorth = prompt("How much is a car worth on average today?", "Avg Car Worth")
+
+        const numberOfMotorBikes = prompt("How many motorbikes do you have in your garage?", "Number of Motorbikes")
+        const averageMotorBikesWorth = prompt("How much is a motorbike worth on average today?", "Avg Motorbike Worth")
+
+        const numberOfBikes = prompt("How many bikes do you have in your garage?", "Number of Bikes")
+        const averageBikesWorth = prompt("How much is a motorbike worth on average today?", "Avg Bike Worth")
+
+
+        const carsValue = numberOfCars * averageCarWorth
+        const motorBikesValue = numberOfMotorBikes * averageMotorBikesWorth
+        const bikesValue = numberOfBikes * averageBikesWorth
+
+
+
+        const totalGarageValue = carsValue + motorBikesValue + bikesValue
+
+        alert("Your garage is worth approximately: " + totalGarageValue + "€")
+    </script>
+</body>
+
+</html>
