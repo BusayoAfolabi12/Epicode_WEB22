@@ -1,8 +1,26 @@
 /* EXERCISE 1
- Write a piece of code to find the largest of  given two integers
+ Write a piece of code to find the largest of given two integers
 */
 
 /* WRITE YOUR ANSWER HERE */
+
+let x = 25;
+let y = 45;
+
+console.log(Math.max(x, y));
+
+//.....OR.......//
+
+const max = Math.max(x, y);
+console.log(max);
+
+//....OR......//
+
+if (x > y) {
+  console.log(x);
+} else {
+  console.log(y);
+}
 
 /* EXERCISE 2
   Write a piece of code to check: if  given an integer is NOT equal to 5 then display " not equal"
@@ -10,17 +28,51 @@
 
 /* WRITE YOUR ANSWER HERE */
 
+let a = 7;
+let b = 5;
+if (a !== b) {
+  console.log("not equal");
+}
+
 /* EXERCISE 2
   Write a piece of code to check: if  given an integer is  divisible  by  5 then display "divisible by 5" (search for modulo operator)
 */
 
 /* WRITE YOUR ANSWER HERE */
 
+if (35 % 5 === 0) {
+  console.log("divisible by 5");
+}
+
 /* EXERCISE 3
  Write a piece of code for checking if, given two integers, the value of one of them is 8 or if their addition or subtraction is equal to 8.
 */
 
 /* WRITE YOUR ANSWER HERE */
+
+let num1 = 4;
+let num2 = 4;
+let numberAddition = num1 + num2;
+let numberSubtraction = num1 - num2;
+
+if (
+  num1 === 8 ||
+  num2 === 8 ||
+  numberAddition === 8 ||
+  numberSubtraction === 8
+) {
+  console.log(
+    "Either",
+    num1,
+    "or",
+    num2,
+    "or",
+    numberAddition,
+    "or",
+    numberSubtraction,
+    "is equal to 8"
+  );
+}
 
 /* EXERCISE 4
  You are working on an e-commerce website. In the variable totalShoppingCart you are storing the total amount spent by the current user.
