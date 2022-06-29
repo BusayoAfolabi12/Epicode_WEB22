@@ -82,12 +82,33 @@ if (
 
 /* WRITE YOUR ANSWER HERE */
 
+let totalShoppingCart = 20;
+let shippingCost = 15;
+
+if (totalShoppingCart > 50) {
+  console.log(`Please pay $${totalShoppingCart} on checkout, thank you for the purchase!`);
+} else {
+  console.log(`Please pay $${totalShoppingCart + shippingCost} on checkout, thank you for the purchase!`);
+}
+
 /* EXERCISE 5
 You are working on an e-commerce website. Today is Black Friday and everything has a 20% discount at the end of the purchase.
  Modify the previous answer inserting this information and, applying the same rules for the shipping cost, calculate the totalCost.
 */
 
 /* WRITE YOUR ANSWER HERE */
+
+
+if(totalShoppingCart > 50){
+  console.log(`Please pay $${(totalShoppingCart - (totalShoppingCart * (20/100)))
+} on checkout, thank you for the purchase!`);
+}
+else{
+  console.log(`Please pay $${((totalShoppingCart - (totalShoppingCart * (20/100))) + shippingCost)} on checkout, thank you for the purchase!`);
+}
+
+
+
 
 /* EXERCISE 6
 Create three variables and assign a numerical value to each one of them. 
@@ -97,17 +118,40 @@ Create three variables and assign a numerical value to each one of them.
 
 /* WRITE YOUR ANSWER HERE */
 
+let numericalValue1 = 10;
+let numericalValue2 = 7;
+let numericalValue3 = 3;
+
+if (numericalValue1){
+  console.log()
+}
+
+
 /* EXERCISE 7
 Write a piece of code for checking if a given value is a integer or not. (search for 'typeof')
 */
 
 /* WRITE YOUR ANSWER HERE */
 
+let integerValue = 10
+
+
 /* EXERCISE 8
  Write a piece of code for checking if a given number is even or odd. (search for modulo operator)
 */
 
 /* WRITE YOUR ANSWER HERE */
+
+let number = 7;
+
+if (number % 2 === 0){
+  console.log("Your input is even number");
+}
+else{
+  console.log("Your input is an odd number");
+}
+
+
 
 /* EXERCISE 9
 Change the order of logic in the code so that it will return the correct statements in all cases.
