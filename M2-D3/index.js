@@ -337,27 +337,27 @@ while (k <= 100) {
 
 /* WRITE YOUR ANSWER HERE */
 
-switch (new Date().getDay()) {
+let day = 6
+
+switch (day) {
   case 0:
-    day = "Sunday";
+    console.log("Sunday")
     break;
   case 1:
-    day = "Monday";
+    console.log("Monday")
     break;
   case 2:
-     day = "Tuesday";
+    console.log("Tuesday")
     break;
   case 3:
-    day = "Wednesday";
+    console.log("Wednesday")
     break;
   case 4:
-    day = "Thursday";
+    day = console.log("Thursday")
     break;
   case 5:
-    day = "Friday";
+    console.log("Friday")
     break;
   case 6:
-    day = "Saturday";
+    console.log("Saturday")
 }
-
-getDay(4)
