@@ -204,14 +204,15 @@ if (val < 10) {
 
 /* WRITE YOUR ANSWER HERE */
 
-let val = 12
-if (val < 10) {
-    console.log("Less than 10");
-  } else if (val < 5) {
-     console.log("Less than 5");
-  } else {
-    console.log("Greater than or equal to 10");
-  }
+let val = 12;
+
+if (val < 10 && val >= 5) {
+  console.log(val, "is Equal to or Greater than 5 & Less than 10");
+} else if (val < 5) {
+  console.log(val, "is Less than 5");
+} else {
+  console.log(val, "is Greater than or equal to 10");
+}
 
 /*
 EXERCISE 10
@@ -225,6 +226,20 @@ num >= 20 - display Huge
 
 /* WRITE YOUR ANSWER HERE */
 
+let size = 25;
+
+if (size < 5) {
+  console.log(size, "is a Tiny size");
+} else if (size < 10 && size >= 5) {
+  console.log(size, "is a Small size");
+} else if (size < 15 && size >= 10) {
+  console.log(size, "is a Medium size");
+} else if (size < 20 && size >= 15) {
+  console.log(size, "is a Large size");
+} else {
+  console.log(size, "is a Huge size");
+}
+
 /*  EXERCISE 11
 Use a ternary operator to assign to a variable called gender the string values "male" or "female".
  The choice should be made based on the value of another variable called isMale.
@@ -232,17 +247,35 @@ Use a ternary operator to assign to a variable called gender the string values "
 
 /* WRITE YOUR ANSWER HERE */
 
+function gender(isMale) {
+  return isMale ? "male" : "female";
+}
+
+console.log(gender(true));
+
+console.log(gender(false));
+
 /* EXERCISE 12
 Display the numbers 0 through 5 (inclusive) in acesnding order using a while loop.
 */
 
 /* WRITE YOUR ANSWER HERE */
 
+let i = 0;
+while (i <= 5) {
+  console.log(i);
+  i++;
+}
+
 /* EXERCISE 13
 Display the numbers 0 through 10 (inclusive) in acesnding order using a for loop.
 */
 
 /* WRITE YOUR ANSWER HERE */
+
+for (i = 0; i <= 10; i++) {
+  console.log(i);
+}
 
 /* EXERCISE 14
 Display the numbers 0 through 10 (inclusive) in acesnding order  but skip displaying 3 and 8.
