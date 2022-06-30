@@ -35,7 +35,8 @@ if (a !== b) {
 }
 
 /* EXERCISE 2
-  Write a piece of code to check: if  given an integer is  divisible  by  5 then display "divisible by 5" (search for modulo operator)
+  Write a piece of code to check: if  given an integer is  divisible  by  5, 
+  then display "divisible by 5" (search for modulo operator)
 */
 
 /* WRITE YOUR ANSWER HERE */
@@ -45,7 +46,8 @@ if (35 % 5 === 0) {
 }
 
 /* EXERCISE 3
- Write a piece of code for checking if, given two integers, the value of one of them is 8 or if their addition or subtraction is equal to 8.
+ Write a piece of code for checking if, given two integers, 
+ the value of one of them is 8 or if their addition or subtraction is equal to 8.
 */
 
 /* WRITE YOUR ANSWER HERE */
@@ -75,8 +77,10 @@ if (
 }
 
 /* EXERCISE 4
- You are working on an e-commerce website. In the variable totalShoppingCart you are storing the total amount spent by the current user.
- Currently you have a promotion: if the customer's shopping cart total is more than 50, the user is eligible for free shipping (otherwise it costs 10).
+ You are working on an e-commerce website. In the variable totalShoppingCart 
+ you are storing the total amount spent by the current user.
+ Currently you have a promotion: if the customer's shopping cart total is more than 50, 
+ the user is eligible for free shipping (otherwise it costs 10).
  Write an algorithm that calculates the total cost to charge the user with.
 */
 
@@ -98,8 +102,10 @@ if (totalShoppingCart > 50) {
 }
 
 /* EXERCISE 5
-You are working on an e-commerce website. Today is Black Friday and everything has a 20% discount at the end of the purchase.
- Modify the previous answer inserting this information and, applying the same rules for the shipping cost, calculate the totalCost.
+You are working on an e-commerce website. Today is Black Friday, 
+and everything has a 20% discount at the end of the purchase.
+ Modify the previous answer inserting this information and, 
+ applying the same rules for the shipping cost, calculate the totalCost.
 */
 
 /* WRITE YOUR ANSWER HERE */
@@ -283,22 +289,75 @@ Display the numbers 0 through 10 (inclusive) in acesnding order  but skip displa
 
 /* WRITE YOUR ANSWER HERE */
 
+for (i = 0; i <= 10; i++) {
+  if (i !== 3 && i !== 8) console.log(i);
+}
+
 /* EXERCISE 15
- Write a JavaScript for loop that will iterate from 0 to 15. For each iteration, it will check if the current number is odd or even, and display a message to the screen
+ Write a JavaScript for loop that will iterate from 0 to 15. For each iteration, 
+ it will check if the current number is odd or even, and display a message to the screen
 */
 
 /* WRITE YOUR ANSWER HERE */
 
+let j = 0;
+while (j <= 15) {
+  if (j % 2 === 0) console.log(j, "is an even number");
+  else {
+    console.log(j, "is odd number");
+  }
+  j++;
+}
+
 /* EXERCISE 16
-  Write a JavaScript program which iterates the integers from 1 to 100. But for multiples of three print "Fizz" instead of the number and for the multiples of five print "Buzz". For numbers which are multiples of both three and five print "FizzBuzz
+  Write a JavaScript program which iterates the integers from 1 to 100. 
+  But for multiples of three print "Fizz" instead of the number 
+  and for the multiples of five print "Buzz". 
+  For numbers which are multiples of both three and five print "FizzBuzz
  */
 
 /* WRITE YOUR ANSWER HERE */
 
+let k = 0;
+while (k <= 100) {
+  if (k % 3 === 0 && k % 5 === 0) console.log("FizzBuzz");
+  else if (k % 3 === 0) console.log("Fizz");
+  else if (k % 5 === 0) console.log("Buzz");
+  else {
+    console.log(k);
+  }
+  k++;
+}
 /* EXERCISE 17
-  Write a piece of code to check the day of the week .  Usie  SWITCH - CASE  and given "day" variable with range from 1 to 7. 
+  Write a piece of code to check the day of the week .  
+  Usie  SWITCH - CASE  and given "day" variable with range from 1 to 7. 
   For example: if day value is equal to 1 display "Monday", if day value is equal to 3 display "Wednesday"
 
   */
 
 /* WRITE YOUR ANSWER HERE */
+
+switch (new Date().getDay()) {
+  case 0:
+    day = "Sunday";
+    break;
+  case 1:
+    day = "Monday";
+    break;
+  case 2:
+     day = "Tuesday";
+    break;
+  case 3:
+    day = "Wednesday";
+    break;
+  case 4:
+    day = "Thursday";
+    break;
+  case 5:
+    day = "Friday";
+    break;
+  case 6:
+    day = "Saturday";
+}
+
+getDay(4)
