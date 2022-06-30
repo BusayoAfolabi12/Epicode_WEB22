@@ -86,9 +86,15 @@ let totalShoppingCart = 20;
 let shippingCost = 15;
 
 if (totalShoppingCart > 50) {
-  console.log(`Please pay $${totalShoppingCart} on checkout, thank you for the purchase!`);
+  console.log(
+    `Please pay $${totalShoppingCart} on checkout, thank you for the purchase!`
+  );
 } else {
-  console.log(`Please pay $${totalShoppingCart + shippingCost} on checkout, thank you for the purchase!`);
+  console.log(
+    `Please pay $${
+      totalShoppingCart + shippingCost
+    } on checkout, thank you for the purchase!`
+  );
 }
 
 /* EXERCISE 5
@@ -98,17 +104,19 @@ You are working on an e-commerce website. Today is Black Friday and everything h
 
 /* WRITE YOUR ANSWER HERE */
 
-
-if(totalShoppingCart > 50){
-  console.log(`Please pay $${(totalShoppingCart - (totalShoppingCart * (20/100)))
-} on checkout, thank you for the purchase!`);
+if (totalShoppingCart > 50) {
+  console.log(
+    `Please pay $${
+      totalShoppingCart - totalShoppingCart * (20 / 100)
+    } on checkout, thank you for the purchase!`
+  );
+} else {
+  console.log(
+    `Please pay $${
+      totalShoppingCart - totalShoppingCart * (20 / 100) + shippingCost
+    } on checkout, thank you for the purchase!`
+  );
 }
-else{
-  console.log(`Please pay $${((totalShoppingCart - (totalShoppingCart * (20/100))) + shippingCost)} on checkout, thank you for the purchase!`);
-}
-
-
-
 
 /* EXERCISE 6
 Create three variables and assign a numerical value to each one of them. 
@@ -118,14 +126,41 @@ Create three variables and assign a numerical value to each one of them.
 
 /* WRITE YOUR ANSWER HERE */
 
-let numericalValue1 = 10;
-let numericalValue2 = 7;
-let numericalValue3 = 3;
+let numericalValue1 = 5;
+let numericalValue2 = 34;
+let numericalValue3 = 7;
 
-if (numericalValue1){
-  console.log()
+if (numericalValue1 > numericalValue2 && numericalValue1 > numericalValue3) {
+  if (numericalValue2 > numericalValue3) {
+    console.log(
+      numericalValue1 + ", " + numericalValue2 + ", " + numericalValue3
+    );
+  } else {
+    console.log(
+      numericalValue1 + ", " + numericalValue3 + ", " + numericalValue2
+    );
+  }
+} else if (y > numericalValue1 && numericalValue2 > numericalValue3) {
+  if (numericalValue1 > numericalValue3) {
+    console.log(
+      numericalValue2 + ", " + numericalValue1 + ", " + numericalValue3
+    );
+  } else {
+    console.log(
+      numericalValue2 + ", " + numericalValue3 + ", " + numericalValue1
+    );
+  }
+} else if (z > numericalValue1 && numericalValue3 > numericalValue2) {
+  if (numericalValue1 > numericalValue2) {
+    console.log(
+      numericalValue3 + ", " + numericalValue1 + ", " + numericalValue2
+    );
+  } else {
+    console.log(
+      numericalValue3 + ", " + numericalValue2 + ", " + numericalValue1
+    );
+  }
 }
-
 
 /* EXERCISE 7
 Write a piece of code for checking if a given value is a integer or not. (search for 'typeof')
@@ -133,25 +168,27 @@ Write a piece of code for checking if a given value is a integer or not. (search
 
 /* WRITE YOUR ANSWER HERE */
 
-let integerValue = 10
+function NumIntegerValue(c, d) {
+  if (Number.isInteger(c / d)) {
+    return "Entered value is an integer";
+  }
+  return "Entered value is not an integer";
+}
 
+console.log(NumIntegerValue(100, 3));
 
 /* EXERCISE 8
- Write a piece of code for checking if a given number is even or odd. (search for modulo operator)
-*/
+ Write a piece of code for checking if a given number is even or odd. (search for modulo operator) */
 
 /* WRITE YOUR ANSWER HERE */
 
 let number = 7;
 
-if (number % 2 === 0){
+if (number % 2 === 0) {
   console.log("Your input is even number");
-}
-else{
+} else {
   console.log("Your input is an odd number");
 }
-
-
 
 /* EXERCISE 9
 Change the order of logic in the code so that it will return the correct statements in all cases.
@@ -166,6 +203,15 @@ if (val < 10) {
 */
 
 /* WRITE YOUR ANSWER HERE */
+
+let val = 12
+if (val < 10) {
+    console.log("Less than 10");
+  } else if (val < 5) {
+     console.log("Less than 5");
+  } else {
+    console.log("Greater than or equal to 10");
+  }
 
 /*
 EXERCISE 10
