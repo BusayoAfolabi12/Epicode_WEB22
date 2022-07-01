@@ -8,9 +8,13 @@ const me = {
   skills: ["javascript", "html", "css"],
 };
 
+console.log(me.skills[2])
+
 /* EXERCISE 2
 Write a piece of code to create an array of only ODD numbers from 1 to 100
  */
+
+
 
 /* EXERCISE 3
 Write a piece of code to create an array of 10 elements of random numbers in the range from 0 to 100 inclusive
