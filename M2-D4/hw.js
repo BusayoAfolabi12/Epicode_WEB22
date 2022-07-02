@@ -8,12 +8,13 @@ const me = {
   skills: ["javascript", "html", "css"],
 };
 
-console.log(me.skills[2])
+console.log(me.skills[2]);
 
 /* EXERCISE 2
-Write a piece of code to create an array of only ODD numbers from 1 to 100
- */
-
+Write a piece of code to create an array of only ODD numbers from 1 to 100 */
+for (i in range(1, 5))
+  
+  console.log(i);
 
 
 /* EXERCISE 3
