@@ -7,35 +7,74 @@ const me = {
   lastName: "Doe",
   skills: ["javascript", "html", "css"],
 };
-
 console.log(me.skills[2]);
+
+//........OR..........//
+
+const meSkillsCss = me.skills.pop();
+console.log(meSkillsCss);
 
 /* EXERCISE 2
 Write a piece of code to create an array of only ODD numbers from 1 to 100 */
 let oddNum = [];
-for (let index = 1; index <= 100; index++){
-  if (index % 2 === 1){
-    oddNum.push(index);
+
+for (let i = 1; i <= 100; i++) {
+  if (i % 2 !== 0);
+  {
+    oddNum.push(i);
   }
 }
 
-
-console.log(oddNum)
+console.log(oddNum);
 /* EXERCISE 3
 Write a piece of code to create an array of 10 elements of random numbers in the range from 0 to 100 inclusive
  */
 
+let randomNumbers = [];
+
+while (randomNumbers.length < 10) {
+  let x = Math.floor(Math.random() * 101);
+  if (randomNumbers.indexOf(x) === -1) randomNumbers.push(x);
+}
+
+console.log(randomNumbers);
+
 /* EXERCISE 4
   Write a piece of code for getting only even numerical values from an array . 
- */
+*/
+
+const mixedArrayType = [1, 2, 3, 4, 5, 6, 8, 12, 16, true, false, "dog", "cat"];
+
+let evenNumberArray = [];
+
+for (i = 0; i < mixedArrayType.length; i++) {
+  if (typeof mixedArrayType[i] === "number" && mixedArrayType[i] % 2 === 0) {
+    evenNumberArray.push(mixedArrayType[i]);
+  }
+}
+console.log(evenNumberArray);
 
 /* EXERCISE 5
 Write a piece of code to sum up the numbers in an array
  */
+let arraySum = 0;
 
+for (i = 0; i < mixedArrayType.length; i++) {
+  if (typeof mixedArrayType[i] === "number") arraySum += mixedArrayType[i];
+}
+console.log(arraySum);
 /* EXERCISE 6
  Write a piece of code for increasing all the numerical values in a array by 1.
 */
+
+let mixedArrayType2 = [1, 2, 3, 4, 5, 6, 7, 8, true, false, "dog", "cat"];
+
+for (let i = 0; i < mixedArrayType2.length; i++) {
+  if (typeof mixedArrayType2[i] === "number") {
+    mixedArrayType2[i]++;
+  }
+}
+console.log(mixedArrayType2);
 
 /* EXERCISE 7 (EXTRA)
  Write a piece of code for deleting only even entries from an array.
