@@ -12,11 +12,15 @@ console.log(me.skills[2]);
 
 /* EXERCISE 2
 Write a piece of code to create an array of only ODD numbers from 1 to 100 */
-for (i in range(1, 5))
-  
-  console.log(i);
+let oddNum = [];
+for (let index = 1; index <= 100; index++){
+  if (index % 2 === 1){
+    oddNum.push(index);
+  }
+}
 
 
+console.log(oddNum)
 /* EXERCISE 3
 Write a piece of code to create an array of 10 elements of random numbers in the range from 0 to 100 inclusive
  */
