@@ -80,6 +80,16 @@ console.log(mixedArrayType2);
  Write a piece of code for deleting only even entries from an array.
 */
 
+for (let i = 0; i < mixedArrayType2.length; i++) {
+  if ((typeof mixedArrayType2[i] === "number" || typeof mixedArrayType2[i] === "string" 
+  || typeof mixedArrayType2[i] === Boolean) && mixedArrayType2 % 2 != 0 ) {
+
+    mixedArrayType2[i]++;
+    
+  }
+}
+console.log(mixedArrayType2);
+
 /* EXERCISE 8
 Write a piece of code to create an array of 10 elements of random numbers in the range from 0 to 10 inclusive WITHOUT duplicates
  */
@@ -89,15 +99,36 @@ Write a piece of code to create an array of 10 elements of random numbers in the
  es.: ["strive", "is", "great"] => [6, 2, 5]
 */
 
+let replaceByLength = ["strive", "is", "great"];
+for (let i = 0; i < replaceByLength.length; i++) {
+  replaceByLength[i] = replaceByLength[i].length;
+}
+console.log(replaceByLength);
+
 /* EXERCISE 10
  Write a piece of code for reverting an array.
  es:
  [1, 3, 5] ==> [5, 3, 1]
 */
 
+let reverseArray = [1, 3, 5];
+
+reverseArray.reverse();
+
+console.log(reverseArray)
+
+
+
+
 /* EXERCISE 11
  Write a piece of code for getting the maximum numerical value from an array.
 */
+
+const array1 = [22, 45, 64, 77];
+
+console.log(Math.max(array1));
+
+
 
 /* This movies array is used throughout the exercises. You're not supposed to alter it. */
 const movies = [
