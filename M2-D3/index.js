@@ -28,8 +28,8 @@ if (x > y) {
 
 /* WRITE YOUR ANSWER HERE */
 
-let a = 7;
-let b = 5;
+let a = 7,
+  b = 5;
 if (a !== b) {
   console.log("not equal");
 }
@@ -41,8 +41,12 @@ if (a !== b) {
 
 /* WRITE YOUR ANSWER HERE */
 
-if (35 % 5 === 0) {
+let givenNumber = 35;
+
+if (givenNumber % 5 === 0) {
   console.log("divisible by 5");
+} else {
+  console.log("not divisible by 5");
 }
 
 /* EXERCISE 3
@@ -52,10 +56,10 @@ if (35 % 5 === 0) {
 
 /* WRITE YOUR ANSWER HERE */
 
-let num1 = 4;
-let num2 = 4;
-let numberAddition = num1 + num2;
-let numberSubtraction = num1 - num2;
+let num1 = 4,
+  num2 = 4,
+  numberAddition = num1 + num2,
+  numberSubtraction = num1 - num2;
 
 if (
   num1 === 8 ||
@@ -86,8 +90,8 @@ if (
 
 /* WRITE YOUR ANSWER HERE */
 
-let totalShoppingCart = 20;
-let shippingCost = 15;
+let totalShoppingCart = 100, 
+    shippingCost = 10;
 
 if (totalShoppingCart > 50) {
   console.log(
@@ -110,16 +114,18 @@ and everything has a 20% discount at the end of the purchase.
 
 /* WRITE YOUR ANSWER HERE */
 
+let blackFridayPromo = 20 / 100
+
 if (totalShoppingCart > 50) {
   console.log(
     `Please pay $${
-      totalShoppingCart - totalShoppingCart * (20 / 100)
+      totalShoppingCart - (totalShoppingCart * blackFridayPromo)
     } on checkout, thank you for the purchase!`
   );
 } else {
   console.log(
     `Please pay $${
-      totalShoppingCart - totalShoppingCart * (20 / 100) + shippingCost
+      (totalShoppingCart - (totalShoppingCart * blackFridayPromo)) + shippingCost
     } on checkout, thank you for the purchase!`
   );
 }
@@ -132,9 +138,9 @@ Create three variables and assign a numerical value to each one of them.
 
 /* WRITE YOUR ANSWER HERE */
 
-let numericalValue1 = 5;
-let numericalValue2 = 34;
-let numericalValue3 = 7;
+let numericalValue1 = 5, 
+    numericalValue2 = 34, 
+    numericalValue3 = 7;
 
 if (numericalValue1 > numericalValue2 && numericalValue1 > numericalValue3) {
   if (numericalValue2 > numericalValue3) {
@@ -146,7 +152,7 @@ if (numericalValue1 > numericalValue2 && numericalValue1 > numericalValue3) {
       numericalValue1 + ", " + numericalValue3 + ", " + numericalValue2
     );
   }
-} else if (y > numericalValue1 && numericalValue2 > numericalValue3) {
+} else if (numericalValue2 > numericalValue1 && numericalValue2 > numericalValue3) {
   if (numericalValue1 > numericalValue3) {
     console.log(
       numericalValue2 + ", " + numericalValue1 + ", " + numericalValue3
@@ -156,7 +162,7 @@ if (numericalValue1 > numericalValue2 && numericalValue1 > numericalValue3) {
       numericalValue2 + ", " + numericalValue3 + ", " + numericalValue1
     );
   }
-} else if (z > numericalValue1 && numericalValue3 > numericalValue2) {
+} else if (numericalValue3 > numericalValue1 && numericalValue3 > numericalValue2) {
   if (numericalValue1 > numericalValue2) {
     console.log(
       numericalValue3 + ", " + numericalValue1 + ", " + numericalValue2
@@ -330,34 +336,34 @@ while (k <= 100) {
 }
 /* EXERCISE 17
   Write a piece of code to check the day of the week .  
-  Usie  SWITCH - CASE  and given "day" variable with range from 1 to 7. 
+  Use  SWITCH - CASE  and given "day" variable with range from 1 to 7. 
   For example: if day value is equal to 1 display "Monday", if day value is equal to 3 display "Wednesday"
 
   */
 
 /* WRITE YOUR ANSWER HERE */
 
-let day = 6
+let day = 6;
 
 switch (day) {
   case 0:
-    console.log("Sunday")
+    console.log("Sunday");
     break;
   case 1:
-    console.log("Monday")
+    console.log("Monday");
     break;
   case 2:
-    console.log("Tuesday")
+    console.log("Tuesday");
     break;
   case 3:
-    console.log("Wednesday")
+    console.log("Wednesday");
     break;
   case 4:
-    day = console.log("Thursday")
+    day = console.log("Thursday");
     break;
   case 5:
-    console.log("Friday")
+    console.log("Friday");
     break;
   case 6:
-    console.log("Saturday")
+    console.log("Saturday");
 }
