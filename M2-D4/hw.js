@@ -19,7 +19,7 @@ Write a piece of code to create an array of only ODD numbers from 1 to 100 */
 let oddNum = [];
 
 for (let i = 1; i <= 100; i++) {
-  if (i % 2 !== 0);
+  if (i % 2 !== 0)
   {
     oddNum.push(i);
   }
@@ -34,7 +34,8 @@ let randomNumbers = [];
 
 while (randomNumbers.length < 10) {
   let x = Math.floor(Math.random() * 101);
-  if (randomNumbers.indexOf(x) === -1) randomNumbers.push(x);
+  if (randomNumbers.indexOf(x) === -1);
+  randomNumbers.push(x);
 }
 
 console.log(randomNumbers);
@@ -60,7 +61,8 @@ Write a piece of code to sum up the numbers in an array
 let arraySum = 0;
 
 for (i = 0; i < mixedArrayType.length; i++) {
-  if (typeof mixedArrayType[i] === "number") arraySum += mixedArrayType[i];
+  if (typeof mixedArrayType[i] === "number")
+  arraySum += mixedArrayType[i];
 }
 console.log(arraySum);
 /* EXERCISE 6
@@ -76,19 +78,32 @@ for (let i = 0; i < mixedArrayType2.length; i++) {
 }
 console.log(mixedArrayType2);
 
+
 /* EXERCISE 7 (EXTRA)
  Write a piece of code for deleting only even entries from an array.
 */
-
-for (let i = 0; i < mixedArrayType2.length; i++) {
-  if ((typeof mixedArrayType2[i] === "number" || typeof mixedArrayType2[i] === "string" 
-  || typeof mixedArrayType2[i] === Boolean) && mixedArrayType2 % 2 != 0 ) {
-
-    mixedArrayType2[i]++;
-    
+// 1, 2, 3, 4, 5, 6, 8, 12, 16, true, false, "dog", "cat"
+for (let i = 0; i < mixedArrayType.length; i++) {
+  if (
+    typeof mixedArrayType[i] === "number" &&
+    mixedArrayType[i] % 2 === 0
+  ) {
+    mixedArrayType.splice(i, 1);
   }
 }
-console.log(mixedArrayType2);
+console.log(mixedArrayType);
+
+const evenNumbersDeleted = [1, 2, 3, 4, 5, 6, 8, 9, "Olu"];
+for (let i = 0; i < evenNumbersDeleted.length; i++) {
+  if (
+    typeof evenNumbersDeleted[i] === "number" &&
+    evenNumbersDeleted[i] % 2 === 0
+  ) {
+    evenNumbersDeleted.splice(i, 1);
+  }
+}
+console.log(evenNumbersDeleted);
+
 
 /* EXERCISE 8
 Write a piece of code to create an array of 10 elements of random numbers in the range from 0 to 10 inclusive WITHOUT duplicates
@@ -115,10 +130,7 @@ let reverseArray = [1, 3, 5];
 
 reverseArray.reverse();
 
-console.log(reverseArray)
-
-
-
+console.log(reverseArray);
 
 /* EXERCISE 11
  Write a piece of code for getting the maximum numerical value from an array.
@@ -127,8 +139,6 @@ console.log(reverseArray)
 const array1 = [22, 45, 64, 77];
 
 console.log(Math.max(array1));
-
-
 
 /* This movies array is used throughout the exercises. You're not supposed to alter it. */
 const movies = [

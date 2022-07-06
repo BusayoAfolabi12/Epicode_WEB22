@@ -343,7 +343,7 @@ while (k <= 100) {
 
 /* WRITE YOUR ANSWER HERE */
 
-let day = 6;
+const day = 6;
 
 switch (day) {
   case 0:
