@@ -83,6 +83,8 @@ console.log(strivify("school"));
 */
 /* WRITE YOUR ANSWER HERE */
 
+//.....Considering multiples of 3 and 7....//
+
 const check3or7 = function (positiveNumber) {
   if (
     positiveNumber >= 0 &&
@@ -115,24 +117,52 @@ console.log(check3and7(21));
  Write a function called "reverseString" which programmatically reverses a given string (es.: Strive => evirtS).
 */
 /* WRITE YOUR ANSWER HERE */
+const reverseString = function (givenStr) {
+  return givenStr.split("").reverse("").join("");
+};
+console.log(reverseString("Strive"));
 
 /* EXERCISE 8
  Write a function called "upperFirst" which capitalizes the first letter of each word of a given string passed as a parameter.
 */
-
 /* WRITE YOUR ANSWER HERE */
+
+const upperEachWord = function (givenString) {
+  let words = givenString.split(" ");
+  let finalString = [];
+  for (let i = 0; i < words.length; i++) {
+    let firstCharacter = words[i].charAt(0);
+    //console.log(firstCharacter);
+    let uppercaseCharacter = firstCharacter.toUpperCase();
+    let cutString = words[i].slice(1);
+    let finalWord = uppercaseCharacter + cutString;
+    finalString.push(finalWord);
+  }
+  console.log(finalString.join(""));
+};
+upperEachWord("epicode school is the best");
 
 /* EXERCISE 9
  Write a function called "cutString" which creates a new string without the first and last character of a given string passed as a parameter.
 */
-
 /* WRITE YOUR ANSWER HERE */
+const cutString = function (givenStr) {
+  return givenStr.slice(1, -1);
+};
+console.log(cutString("EEpicodee"));
 
 /* EXERCISE 10
  Write a function called "giveMeRandom" which accepts a number n and returns an array containing n random numbers between 0 and 10.
 */
-
 /* WRITE YOUR ANSWER HERE */
+const giveMeRandom = function (n) {
+    const array = [];
+    for (i = 0; i < n; i++) {
+      array.push(Math.floor(Math.random() * 10));
+    }
+    return array;
+  };
+  console.log(giveMeRandom(5));
 
 /* WHEN YOU ARE FINISHED
  Commit and push the code to your personal GitHub repository; then post the link of your commit on the Homework section of today's Eduflow.
