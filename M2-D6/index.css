@@ -1,3 +1,9 @@
-html {
-    background-color: rgb(218, 227, 232);
+body {height: 100%;
+    width: 100%;
+    padding: 2em;
+}
+
+.green_text{
+    color: greenyellow;
+    
 }
