@@ -19,8 +19,7 @@ Write a piece of code to create an array of only ODD numbers from 1 to 100 */
 let oddNum = [];
 
 for (let i = 1; i <= 100; i++) {
-  if (i % 2 !== 0)
-  {
+  if (i % 2 !== 0) {
     oddNum.push(i);
   }
 }
@@ -61,8 +60,7 @@ Write a piece of code to sum up the numbers in an array
 let arraySum = 0;
 
 for (i = 0; i < mixedArrayType.length; i++) {
-  if (typeof mixedArrayType[i] === "number")
-  arraySum += mixedArrayType[i];
+  if (typeof mixedArrayType[i] === "number") arraySum += mixedArrayType[i];
 }
 console.log(arraySum);
 /* EXERCISE 6
@@ -78,16 +76,12 @@ for (let i = 0; i < mixedArrayType2.length; i++) {
 }
 console.log(mixedArrayType2);
 
-
 /* EXERCISE 7 (EXTRA)
  Write a piece of code for deleting only even entries from an array.
 */
 // 1, 2, 3, 4, 5, 6, 8, 12, 16, true, false, "dog", "cat"
 for (let i = 0; i < mixedArrayType.length; i++) {
-  if (
-    typeof mixedArrayType[i] === "number" &&
-    mixedArrayType[i] % 2 === 0
-  ) {
+  if (typeof mixedArrayType[i] === "number" && mixedArrayType[i] % 2 === 0) {
     mixedArrayType.splice(i, 1);
   }
 }
@@ -103,7 +97,6 @@ for (let i = 0; i < evenNumbersDeleted.length; i++) {
   }
 }
 console.log(evenNumbersDeleted);
-
 
 /* EXERCISE 8
 Write a piece of code to create an array of 10 elements of random numbers in the range from 0 to 10 inclusive WITHOUT duplicates
@@ -136,11 +129,19 @@ console.log(reverseArray);
  Write a piece of code for getting the maximum numerical value from an array.
 */
 
-const array1 = [22, 45, 64, 77];
+const maxNumArray = [22, 45, 64, 77];
 
-console.log(Math.max(array1));
+let maxValue = maxNumArray[0];
+
+for (let i = 1; i < maxNumArray.length; i++) {
+  if (maxNumArray[i] > maxValue) {
+    maxValue = maxNumArray[i];
+  }
+}
+console.log(maxValue);
 
 /* This movies array is used throughout the exercises. You're not supposed to alter it. */
+
 const movies = [
   {
     Title: "The Lord of the Rings: The Fellowship of the Ring",
@@ -260,27 +261,81 @@ const movies = [
     Write a piece of code to  find the oldest movie in the provided movies array.
 */
 
+let maxYear = parseInt(movies[0].Year);
+let oldestMovie;
+for (let i = 0; i < movies.length; i++) {
+  const parsedYear = parseInt(movies[i].Year); // parse string to number
+  if (parsedYear > maxYear) {
+    oldestMovie = movies[i];
+  }
+}
+
+console.log(maxYear);
+
 /* EXERCISE 13
     Write a piece of code to get the number of movies contained in the provided movies array.
 */
+
+const total = movies.length;
+
+console.log(total);
 
 /* EXERCISE 14
     Write a piece of code to create an array with just the titles of the movies contained in the provided movies array.
 */
 
+const titles = [];
+for (let i = 0; i < movies.length; i++) {
+  titles.push(movies[i].Title);
+}
+console.log(titles);
+
+
 /* EXERCISE 15
    Write a piece of code to get only the movies produced in this millennium from the provided movies array.
 */
+
+const thisMil = [];
+for (let i = 0; i < movies.length; i++) {
+  if (parseInt(movies[i].Year) > 2000) {
+    thisMil.push(movies[i]);
+  }
+}
+console.log(thisMil);
 
 /* EXERCISE 16
    Write a piece of code to get  the movie with the  id given below from the provided movies array.
 */
 const id = "tt0355702";
 
+let movieById;
+for (let i = 0; i < movies.length; i++) {
+  if (movies[i].imdbID === id) {
+    movieById = movies[i];
+    break;
+  }
+}
+
 /* EXERCISE 17
      Write a piece of code to get  the  the sum of all the years in which the movies in the provided movies array have been produced.
 */
 
+let yearsSum = 0;
+for (let i = 0; i < movies.length; i++) {
+  yearsSum = yearsSum + parseInt(movies[i].Year);
+}
+console.log(yearsSum);
+
 /* EXERCISE 18
    Write a piece of code to get  all the movies in the provided movies array which contain the string value (provided below) in the title.
 */
+
+const query = "Ring";
+const result = [];
+for (let i = 0; i < movies.length; i++) {
+  if (movies[i].Title.includes(query)) {
+    result.push(movies[i]);
+  }
+}
+
+console.log(result);
