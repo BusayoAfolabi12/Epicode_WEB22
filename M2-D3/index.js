@@ -299,6 +299,14 @@ for (i = 0; i <= 10; i++) {
   if (i !== 3 && i !== 8) console.log(i);
 }
 
+
+// TO VISIT
+// for (i = 0; i <= 10; i++) {     
+//   if (i === 3 && i === 8) 
+//   continue
+//   console.log(i);
+// }
+
 /* EXERCISE 15
  Write a JavaScript for loop that will iterate from 0 to 15. For each iteration, 
  it will check if the current number is odd or even, and display a message to the screen
