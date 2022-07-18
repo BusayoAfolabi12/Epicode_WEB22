@@ -300,7 +300,7 @@ for (i = 0; i <= 10; i++) {
 }
 
 
-// TO VISIT
+// TO RE-VISIT
 // for (i = 0; i <= 10; i++) {     
 //   if (i === 3 && i === 8) 
 //   continue
