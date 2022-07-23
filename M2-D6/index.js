@@ -22,7 +22,7 @@ function randomNumber(x) {
 const body = document.querySelector("body");
 
 let red2 = randomNumber(255);
-let green2 = randomNumber(255);
+let green2 = randomNumber(245);
 let blue2 = randomNumber(235);
 body.style.backgroundColor = `rgb(${red2}, ${green2}, ${blue2})`;
 
