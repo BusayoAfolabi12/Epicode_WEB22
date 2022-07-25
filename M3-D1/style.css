@@ -1,0 +1,67 @@
+
+h1{
+    color: blue;
+}
+nav span{
+    color: blueviolet;
+}
+.lead.mb-0 > a{
+    color: crimson;
+}
+.col-md-8.blog-main h3 + div {
+   background-color: rgb(124, 45, 45) ; 
+}
+.blog-post > hr{
+    background-color: red;
+}
+nav span:nth-child(2n-1){
+  background-color: aqua;
+}
+.list-unstyled.mb-0 a{
+    color: pink;
+}
+.blog-post:nth-child(3) .blog-post-meta a  {
+    color: green;
+}
+.blog-post:nth-child(4) li:nth-child(2){
+    color: yellow;
+}
+.float-right.mb-3.mr-3{
+ color: cyan;
+}
+.btn.btn-outline-secondary.disabled{
+    background-color: blue;
+}
+/* a:last-of-type{
+    color: darkorchid;
+} */
+.blog-footer p a:nth-of-type(2){
+    background-color: red;}
+
+
+
+
+
+
+
+    /* WORKING WITH HIGHER SPECIFICITY */
+
+.jumbotron.p-4.p-md-5.rounded .col-md-6.px-0 > h1 {
+  background-color: aqua;
+}
+
+.container nav.nav.d-flex.justify-content-between.mb-2 > span {
+  background-color: red;
+}
+
+.container .jumbotron.p-4.p-md-5.rounded .col-md-6.px-0 h1 + p + p {
+  background-color: blue;
+}
+
+main.container .row .col-md-8.blog-main h3 + div h2 + p + p {
+    background-color: chocolate;
+}
+
+main.container .row .col-md-8.blog-main h3 + div h2 + p + p + hr{
+    border: 1px solid blue;
+}
