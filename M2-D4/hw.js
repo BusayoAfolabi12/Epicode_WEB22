@@ -339,3 +339,8 @@ for (let i = 0; i < movies.length; i++) {
 }
 
 console.log(result);
+
+const arr1 = [0];
+const arr2 = [1,2,3];
+arr1.push(arr2);
+console.log('last:' + arr1.pop() + 'length:' + arr1.length);
