@@ -44,9 +44,9 @@ nav span:nth-child(2n-1){
 
 
 
-    /* WORKING WITH HIGHER SPECIFICITY */
+    /* WORKING WITH HIGHER SPECIFICITY BELOW*/
 
-.jumbotron.p-4.p-md-5.rounded .col-md-6.px-0 > h1 {
+/* .jumbotron.p-4.p-md-5.rounded .col-md-6.px-0 > h1 {
   background-color: aqua;
 }
 
@@ -64,4 +64,4 @@ main.container .row .col-md-8.blog-main h3 + div h2 + p + p {
 
 main.container .row .col-md-8.blog-main h3 + div h2 + p + p + hr{
     border: 1px solid blue;
-}
+} */
