@@ -1,0 +1,19 @@
+
+.container.text-center{
+    margin-top: 7rem;
+}
+h1{
+    margin: 1rem 0;
+
+}
+.col.card-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    line-height: 3px;
+    padding-top: 1rem;
+}
+
+.navbar.footer.bg-warning{
+    margin-top: 3rem;
+}
