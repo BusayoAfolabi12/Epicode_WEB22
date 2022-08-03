@@ -1,0 +1,36 @@
+
+body {
+    background: linear-gradient(45deg, rgb(190, 60, 194) 0%, rgb(226, 235, 185) 100%);
+    background-attachment: fixed;
+    color: white;
+    
+}
+
+.container.body{
+    margin-top: 7rem;
+}
+
+
+.card.h-100{
+    color: black;
+}
+
+.card-img-top.img-fluid{
+    height: 20rem;
+}
+
+
+
+.card.maldives{
+    height: 30rem;
+    width: 80%;
+    color: blueviolet;
+    
+       
+}
+
+.card.maldives > img{
+    height: 30rem;
+
+
+}

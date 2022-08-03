@@ -9,12 +9,13 @@
       integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="style.css">
     <title>Best Travel Agency</title>
   </head>
   <body>
-    <nav class="navbar fixed-top navbar-expand-lg bg-warning">
+    <!-- <nav class="navbar fixed-top navbar-expand-lg bg-warning">
       <div class="container">
-        <div class="  col-md-2">
+        <div class="col-md-2">
           <a class="logo m-2"
             ><img
               class="brand-logo"
@@ -23,7 +24,8 @@
               alt="brand-logo-image"
           /></a>
           <a class="navbar-brand" href="#"
-            ><strong> BEST TRAVEL AGENCY</strong></a>
+            ><strong> BEST TRAVEL AGENCY</strong></a
+          >
         </div>
         <button
           class="navbar-toggler"
@@ -37,8 +39,8 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 ml-lg-0 ">
-            <li class="nav-item ">
+          <ul class="navbar-nav me-auto mb-2 ml-lg-0">
+            <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
@@ -87,13 +89,203 @@
           </form>
         </div>
       </div>
+    </nav> -->
+
+    <nav class="navbar fixed-top navbar-expand-lg bg-warning" >
+      <div class="container">
+        <a class="navbar-brand" href="#"><strong>Best Travel & Tour</strong></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                My Music List
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="favorite.html">My Favorite Track List</a></li>
+                <li><a class="dropdown-item" href="albumreviews.html">My Best Track Review</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="notSoGood.html">Not So Good Tracks</a>
+                </li>
+              </ul>
+            </li>
+            
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
     </nav>
 
-    <nav class="navbar footer bg-warning">
-      <footer class="container">
-        <a class="navbar-brand" href="#">copyright 2022</a>
-      </footer>
-    </nav>
+    <div class="container body">
+      <div class="jumbotron mt-5">
+        <div class="row">
+          <div class="col-12 col-lg-5 col-xl-6">
+          <img src="https://images.unsplash.com/photo-1616423841125-8307665a0469?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTAzfHx2YWNhdGlvbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="website image">
+        </div>
+        <div class="col-12  col-lg-7 col-xl-6">
+          <h1 class="display-4">Best Travel & Tour</h1>
+          <p class="lead">Travel as you want
+          </p>
+          <hr class="my-4" />
+
+          <h5 class=" mt-2">Explore the Wonderful Experience</h5>
+        </div>
+      </div>
+
+      <h2 class=" mt-4 text-center">Deal of the Week</h2>
+
+
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://images.unsplash.com/photo-1518684079-3c830dcef090?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZHViYWl8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" class="card-img-top img-fluid" alt="Dubai_image">
+            <div class="card-body">
+              <h5 class="card-title">Dubai</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://images.unsplash.com/photo-1582070915618-9140bdc5035e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHRpbWVzJTIwc3F1YXJlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top img-fluid" alt="New York image">
+            <div class="card-body">
+              <h5 class="card-title">New York</h5>
+              <p class="card-text">This is a short card.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://images.unsplash.com/photo-1621583628955-42fbc37bf424?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8emFuemliYXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" class="card-img-top img-fluid" alt="Tanzania image">
+            <div class="card-body">
+              <h5 class="card-title">Tanzania</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://images.unsplash.com/photo-1511739001486-6bfe10ce785f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cGFyaXMlMjBmcmFuY2V8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" class="card-img-top img-fluid" alt="Paris image">
+            <div class="card-body">
+              <h5 class="card-title">Paris</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h2 class=" mt-4 text-center">Welcome to Summer</h2>
+
+
+      <div class="row row-cols-2 row-cols-md-3 row-cols-lg-6 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://images.unsplash.com/photo-1612179671052-d76dd7862162?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8c3VtbWVyJTIwY2l0eXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top img-fluid" alt="Lisbon_image">
+            <div class="card-body">
+              <h5 class="card-title">Lisbon</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://images.unsplash.com/photo-1620127682229-33388276e540?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3VtbWVyJTIwYmVhY2h8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" class="card-img-top img-fluid" alt="Greece_image">
+            <div class="card-body">
+              <h5 class="card-title">Greece</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://images.unsplash.com/photo-1633161112703-70b4751e9a97?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8a2VueWElMjBiZWFjaHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top img-fluid" alt="Kenya_image">
+            <div class="card-body">
+              <h5 class="card-title">Kenya</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://images.unsplash.com/photo-1534366381226-672074533fd3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YnJhemlsJTIwc3VtbWVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top img-fluid" alt="Brazil_image">
+            <div class="card-body">
+              <h5 class="card-title">Brazil</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://images.unsplash.com/photo-1461937995729-a2e442122d18?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8c3BhaW4lMjBzdW1tZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" class="card-img-top img-fluid" alt="Spain_image">
+            <div class="card-body">
+              <h5 class="card-title">Spain</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://images.unsplash.com/photo-1530071291164-537d481750f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGZsb3JpZGElMjBiZWFjaHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top img-fluid" alt="Flodida_image">
+            <div class="card-body">
+              <h5 class="card-title">USA</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h2 class=" mt-4 text-center">Deal of the Day</h2>
+
+      <div class="row row-cols-1 row-cols-md-1 row-cols-lg-1 g-4">
+        <div class="col text-center">
+        <div class="card maldives">
+          <img src="https://images.unsplash.com/photo-1512100254544-47340ba56b5d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODR8fHRyYXZlbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" class="card-img img-fluid" alt="Maldives_image">
+          <div class="card-img-overlay">
+            <h5 class="card-title">Experience Maldives</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+
+        
+        
+
+
+  </div>
+
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
       integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
