@@ -6,6 +6,11 @@ body {
     
 }
 
+.navbar.fixed-top.navbar-expand-lg{
+    background: linear-gradient(45deg, rgb(190, 60, 194) 0%, rgb(185, 235, 230) 100%);
+
+}
+
 .container.body{
     margin-top: 7rem;
 }
@@ -25,6 +30,7 @@ body {
     height: 30rem;
     width: 80%;
     color: blueviolet;
+    margin-left: 5rem;
     
        
 }
