@@ -1,0 +1,23 @@
+body{
+    text-align: center;
+    margin: 0;
+}
+
+.main-div{
+    margin: 6rem;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.site-navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.site-navigation p span{
+    padding: 8px;   
+}
+
