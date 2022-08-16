@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  background-color: #fff;
+  text-align: center;
+}
+
+main {
+  height: 300%;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0 5% 0 5%;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+/*............LEFT SECTION ..............*/
+
+.left-section {
+  height: 100%;
+  width: 5%;
+  background-color: antiquewhite;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+
+.dark-bodies {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem;
+}
+
+.full-dark {
+  height: 25px;
+  width: 25px;
+  margin-right: 2px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.half-dark {
+  height: 25px;
+  width: 12px;
+  margin-right: 2px;
+  background-color: black;
+  border-radius: 50%;
+}
+.mini-dark {
+  height: 25px;
+  width: 5px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.menu-key {
+  height: 40%;
+  width: 50px;
+  margin: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.menu-key img {
+  height: 20px;
+  width: 20px;
+}
+
+.login-letter {
+  height: 25px;
+  width: 25px;
+  box-sizing: border-box;
+  margin: 1.2rem;
+  padding-top: 3px;
+  background-color: rgb(146, 117, 117);
+  border-radius: 50%;
+  text-align: center;
+  color: #fff;
+}
+
+/*............MIDDLE-SECTION..............*/
+
+.middle-section {
+  height: 300%;
+  width: 65%;
+  box-sizing: border-box;
+  background-color: rgb(166, 191, 191);
+  
+}
+
+.topic{
+    margin-left: 3rem;
+    overflow-x: hidden;
+}
+
+.topic button{
+    height: 40px;
+    box-sizing: border-box;
+    padding: 15px;
+    padding-top: 12px;
+    margin-left: 0.5rem ;
+    font-size: larger;
+    text-transform: capitalize;
+    font-size: 15px;
+    border-radius: 20px;
+    border: 1px;
+    
+    
+}
+
+/*............RIGHT-SECTION..............*/
+
+.right-section {
+  height: 100%;
+  width: 20%;
+  background-color: aliceblue;
+}
