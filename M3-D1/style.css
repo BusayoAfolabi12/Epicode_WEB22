@@ -9,7 +9,7 @@ nav span{
     color: crimson;
 }
 .col-md-8.blog-main h3 + div {
-   background-color: rgb(124, 45, 45) ; 
+   background-color: rgb(148, 95, 95) ; 
 }
 .blog-post > hr{
     background-color: red;
