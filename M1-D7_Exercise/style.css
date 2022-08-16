@@ -1,14 +1,26 @@
 body{
     text-align: center;
     margin: 0;
+    font-family: sans-serif;
+}
+
+.header-text{
+    margin-top: 4rem;
+    line-height: 12px;
+}
+
+.header-text p + p span {
+    color: red;
+    padding: 4px;
 }
 
 .main-div{
     margin: 6rem;
+    margin-top: 1rem;
     display: flex;
     flex-direction: column;
+    
 }
-
 
 .site-navigation{
     display: flex;
@@ -17,7 +29,82 @@ body{
     box-sizing: border-box;
 }
 
+button{
+    height: 30px;
+    width: 80px;
+    margin-top: 10px;
+}
+button:hover{
+    background-color: antiquewhite;
+    border-radius: 5px;
+}
+
 .site-navigation p span{
     padding: 8px;   
 }
+.site-navigation p span:hover{
+    font-weight: 700;
+    background-color: antiquewhite;
+    border-radius: 5px;
+}
 
+main{
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.content-display{
+    height: 250px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.display-image img{
+    height: 200px;
+    width: 250px;
+    margin-bottom: 5px;
+    border-radius: 8px;
+}
+
+.display-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.people, .reactions{
+    display: flex;
+    flex-direction: row;
+    
+}
+.people img{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+.people span{
+    background-color: antiquewhite;
+}
+
+.reactions img{
+    height: 15px;
+    width: 15px;
+    padding-top: 3px;
+}
+
+.reactions img + p + img{
+    height: 20px;
+    width: 25px;
+    padding-left: 8px;
+    padding-top: 1px;
+}
+
+.display-info p{
+    font-size: 10px;
+    margin-top: 5px;
+    padding-left: 3px;
+}
