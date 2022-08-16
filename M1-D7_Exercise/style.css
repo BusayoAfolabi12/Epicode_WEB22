@@ -33,10 +33,13 @@ button{
     height: 30px;
     width: 80px;
     margin-top: 10px;
+    
+
 }
 button:hover{
     background-color: antiquewhite;
     border-radius: 5px;
+    border: 1px;
 }
 
 .site-navigation p span{
@@ -89,7 +92,7 @@ main{
 }
 
 .people p button{
-    height: 15px;
+    height: 13px;
     width: 40px;
     font-size: 10px;
     color: fff;
