@@ -250,7 +250,7 @@ button:hover {
 /*............RIGHT-SECTION..............*/
 
 .right-section {
-  height: 100%;
+  height: 112%;
   width: 20%;
   box-sizing: border-box;
   padding-right: 0.5rem;
@@ -301,7 +301,7 @@ li{
   padding-top: 3px;
   line-height: 1px;
 }
-.side-posts span{
+.side-posts span, .toFollow span{
   color: green;
 }
 
@@ -385,26 +385,31 @@ li{
 
 }
 
+.toFollow{
+text-align: left;
+margin: 0 1.5rem;
+}
+
+.toFollow .who{
+  margin-top: 3rem;
+  margin-bottom: 0px;
+}
+
 .follow{
   width: 80%;
   display: flex;
   flex-direction: row;
-  margin: 0 1.5rem;
-  
   box-sizing: border-box;
 
-}
-
-.follow h4{
-  paddinr-top: 3rem;
 }
 
 .follow img{
-  height: 40px;
-  width: 100px;
+  height: 50px;
+  width: 50px;
   border-radius: 50%;
   box-sizing: border-box;
   margin-top: 20px;
+  margin-right: 10px;
 
 }
 
@@ -418,6 +423,16 @@ li{
 
 }
 
+.reading{
+  margin: 1.5rem;
+  text-align: left;
+}
+
+.reading h4 + p + p{
+  margin-top: 4rem;
+  font-size: small;
+  line-height: 18px;
+}
 
 
 
