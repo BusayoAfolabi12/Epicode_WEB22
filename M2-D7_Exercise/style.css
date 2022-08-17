@@ -9,7 +9,7 @@ main {
   height: 300%;
   width: 100%;
   box-sizing: border-box;
-  margin: 0 5% 0 5%;
+  margin: 0% 5% 0 5%;
   display: flex;
   flex-direction: row;
   position: relative;
@@ -24,7 +24,6 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  
 }
 
 .dark-bodies {
@@ -87,157 +86,157 @@ main {
   height: 300%;
   width: 65%;
   box-sizing: border-box;
-  border: 1px solid rgb(230, 218, 218); 
+  padding-right: 4rem;
+  border: 1px solid rgb(230, 218, 218);
   position: absolute;
   left: 5%;
-  
 }
 
-.topic{
-    margin-left: 3rem;
-    overflow-x: hidden;
+.topic {
+  width: 80%;
+  margin-left: 6rem;
+  margin-top: 1rem;
+  overflow-x: hidden;
+  box-sizing: border-box;
 }
 
-.topic button{
-    height: 40px;
-    box-sizing: border-box;
-    padding: 15px;
-    padding-top: 12px;
-    margin-left: 0.5rem ;
-    font-size: larger;
-    text-transform: capitalize;
-    font-size: 15px;
-    border-radius: 20px;
-    border: 1px;   
-    
+.topic button {
+  height: 40px;
+  box-sizing: border-box;
+  padding: 15px;
+  padding-top: 12px;
+  margin-left: 0.5rem;
+  font-size: larger;
+  text-transform: capitalize;
+  font-size: 15px;
+  border-radius: 20px;
+  border: 1px;
 }
 
-.reference-sites{
-    display: flex;
-    flex-direction: row;
-    margin-left: 6rem;
-    margin-top: 2rem;
+.topic button:hover,
+button:hover {
+  background-color: antiquewhite;
 }
 
-.reference-sites img{
-    margin-left: 1rem;
+.reference-sites {
+  display: flex;
+  flex-direction: row;
+  margin-left: 6rem;
+  margin-top: 2rem;
 }
 
-.reference-sites :nth-of-type(2){
-    height: 48px;
-    width: 48px;
-    border-radius: 50px;
-    
+.reference-sites img {
+  margin-left: 1rem;
 }
 
-.for-you{
-    height: 50px;
-    width: 80%;
-    display: flex;
-    flex-direction: row;
-    margin-left: 7rem;
-    padding-bottom: 1px;
-    box-sizing: border-box;
-    border-bottom: 1px solid rgb(230, 218, 218);
+.reference-sites :nth-of-type(2) {
+  height: 48px;
+  width: 48px;
+  border-radius: 50px;
+}
+
+.for-you {
+  height: 50px;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  margin-left: 7rem;
+  padding-bottom: 1px;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgb(230, 218, 218);
 }
 
 .for-you p {
-    padding-right: 30px;
-    
+  padding-right: 30px;
 }
 
-.yellow-box{
-    height: 80px;
-    width: 80%;
-    margin-left: 7rem;
-    margin-top: 2rem;
-    padding-left: 25px;
-    padding-top: 2px;
-    box-sizing: border-box;
-    background-color: rgb(202, 202, 66);
-    border-radius: 5px;
-    text-align: left;
-    line-height: 14px;
+.yellow-box {
+  height: 80px;
+  width: 80%;
+  margin-left: 7rem;
+  margin-top: 2rem;
+  padding-left: 25px;
+  padding-top: 2px;
+  box-sizing: border-box;
+  background-color: #f0e08f;
+  border-radius: 5px;
+  text-align: left;
+  line-height: 14px;
 }
 
-.big-div{
-    background-color: #fff;
-    height: 300px;
-    width: 80%;
-    box-sizing: border-box;
-    margin-left: 7rem;
-    margin-top: 2rem;
-    display: flex;
-    flex-direction: row;
-    border-bottom: 1px solid rgb(230, 218, 218);
+.big-div {
+  background-color: #fff;
+  height: 300px;
+  width: 80%;
+  box-sizing: border-box;
+  margin-left: 7rem;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid rgb(230, 218, 218);
 }
 
-.content{
-    height: 100%;
-    width: 80%;
-    box-sizing: border-box;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    text-align: left;
+.content {
+  height: 100%;
+  width: 80%;
+  box-sizing: border-box;
+  margin-right: 1rem;
+  text-align: left;
 }
 
-.author-info{
+.author-info {
   height: 40px;
   width: 100%;
   display: flex;
   flex-direction: row;
   box-sizing: border-box;
-
 }
 
-.author-info img{
+.author-info img {
   height: 30px;
   width: 30px;
   border-radius: 50%;
   padding: 5 0;
 }
 
-.author-info p{
+.author-info p {
   padding-left: 10px;
 }
 
-.content h2 + p{
+.content h2 + p {
   height: 90px;
   width: 100%;
   overflow: hidden;
   line-height: 22px;
-  
 }
 
-.content-bottom{
+.content-bottom {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin-top: 1rem;
 }
 
-.content-bottom-text, .content-bottom-icons{
+.content-bottom-text,
+.content-bottom-icons {
   height: 40px;
-  
   display: flex;
   flex-direction: row;
-  
 }
 
-.content-bottom-text p{
+.content-bottom-text p {
   padding-left: 8px;
   margin-bottom: 2rem;
-  
 }
 
-.content-bottom-icons img{
+.content-bottom-icons img {
   height: 20px;
   width: 20px;
   margin-top: 5px;
   padding: 8px;
 }
 
-.content-bottom button{
+.content-bottom button {
   height: 30px;
   width: 70px;
   margin-top: 8px;
@@ -245,16 +244,93 @@ main {
   border: 1px;
 }
 
-
-.picture{
-    margin-top: 13%; 
+.picture {
+  margin-top: 13%;
 }
 /*............RIGHT-SECTION..............*/
 
 .right-section {
   height: 100%;
   width: 20%;
+  box-sizing: border-box;
+  padding-right: 0.5rem;
   background-color: aliceblue;
   position: absolute;
   left: 70%;
 }
+
+.right-section button, .right-section input{
+  height: 40px;
+  width: 80%;
+  border-radius: 20px;
+  margin-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  box-sizing: border-box;
+  border: 1px solid rgb(230, 218, 218);
+}
+
+.right-section button{
+  background-color: black;
+  color: #fff;
+}
+
+li{
+  height: 20px;
+  box-sizing: border-box; 
+}
+
+::marker{
+  color: green;
+  font-size: large;
+}
+
+.side-posts{
+  
+  width: 80%;
+  box-sizing: border-box;
+  padding-left: 1.5rem;
+  text-align: left;
+}
+
+.side-posts .author-info{
+  height: 20px;
+  
+}
+.side-posts p{
+  padding-top: 3px;
+  line-height: 1px;
+}
+.side-posts span{
+  color: green;
+}
+
+.right-logo{
+  height: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.right-logo img{
+  height: 25px;
+  width: 25px;
+  padding-top: 15px;
+}
+
+.right-logo div + img {
+  height: 15px;
+  width: 15px;
+  padding-top: 20px;
+  padding-right: 2px;
+}
+
+.right-logo .dark-bodies{
+  margin-right: 3px;
+}
+
+
+
+
+
