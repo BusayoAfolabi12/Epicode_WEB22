@@ -259,7 +259,7 @@ button:hover {
   left: 70%;
 }
 
-.right-section button, .right-section input{
+.right-section .top-butoon, .right-section input{
   height: 40px;
   width: 80%;
   border-radius: 20px;
@@ -270,7 +270,7 @@ button:hover {
   border: 1px solid rgb(230, 218, 218);
 }
 
-.right-section button{
+.right-section .top-butoon{
   background-color: black;
   color: #fff;
 }
@@ -311,6 +311,7 @@ li{
   flex-direction: row;
   justify-content: center;
   margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 .right-logo img{
@@ -328,6 +329,93 @@ li{
 
 .right-logo .dark-bodies{
   margin-right: 3px;
+}
+
+.twitter-section{
+  width: 80%;
+  border-bottom: 1px solid rgb(230, 218, 218);
+  margin: 1.5rem;
+  padding-bottom: 1rem;
+  
+}
+
+.twitter.connect{
+  height: 40px;
+  width: 100%;
+  border-radius: 20px;
+  margin-top: 2rem;
+  padding-left: 1rem;
+  padding-right: 2rem;
+  box-sizing: border-box;
+  border: 1px solid rgb(230, 218, 218);
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  color: black;
+  margin-bottom: 1.5rem;
+  
+}
+
+.twitter.connect img{
+  height: 25px;
+  width: 25px;
+  padding-top: 7px;
+  padding-right: 3px;
+  
+}
+
+.twitter.connect p{
+  height: 20px;
+  width: 100%;
+  font-size: 12.6px;
+}
+
+.Recommendedbutton{
+  text-align: left;
+  margin-left: 1.5rem;
+}
+
+.Recommendedbutton button{
+  height: 40px;
+  border-radius: 20px;
+  box-sizing: border-box;
+  margin-top: 0.5rem;
+  border: 1px;
+  padding: 0 1.5rem;
+
+}
+
+.follow{
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  margin: 0 1.5rem;
+  
+  box-sizing: border-box;
+
+}
+
+.follow h4{
+  paddinr-top: 3rem;
+}
+
+.follow img{
+  height: 40px;
+  width: 100px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  margin-top: 20px;
+
+}
+
+.follow button{
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid rgb(230, 218, 218) ;
+  background-color: #fff;
+  padding: 0 1rem;
+  margin-top: 40px;
+
 }
 
 
