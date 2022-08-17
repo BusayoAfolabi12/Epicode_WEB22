@@ -2,6 +2,7 @@ body {
   margin: 0;
   background-color: #fff;
   text-align: center;
+  font-family: sans-serif;
 }
 
 main {
@@ -106,11 +107,123 @@ main {
     text-transform: capitalize;
     font-size: 15px;
     border-radius: 20px;
-    border: 1px;
-    
+    border: 1px;   
     
 }
 
+.reference-sites{
+    display: flex;
+    flex-direction: row;
+    margin-left: 6rem;
+    margin-top: 2rem;
+}
+
+.reference-sites img{
+    margin-left: 1rem;
+}
+
+.reference-sites :nth-of-type(2){
+    height: 48px;
+    width: 48px;
+    border-radius: 50px;
+    
+}
+
+.for-you{
+    height: 50px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 7rem;
+    padding-bottom: 1px;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgb(230, 218, 218);
+}
+
+.for-you p {
+    padding-right: 30px;
+    
+}
+
+.yellow-box{
+    height: 80px;
+    width: 80%;
+    margin-left: 7rem;
+    margin-top: 2rem;
+    padding-left: 25px;
+    padding-top: 2px;
+    box-sizing: border-box;
+    background-color: rgb(202, 202, 66);
+    border-radius: 5px;
+    text-align: left;
+    line-height: 14px;
+}
+
+.big-div{
+    background-color: #fff;
+    height: 300px;
+    width: 80%;
+    box-sizing: border-box;
+    margin-left: 7rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.content{
+    height: 100%;
+    width: 80%;
+    box-sizing: border-box;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: left;
+}
+
+.author-info, .content-bottom{
+  height: 40px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+
+}
+
+.author-info img{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  padding: 5 0;
+}
+
+.author-info p{
+  padding-left: 10px;
+}
+
+.content h2 + p{
+  height: 90px;
+  width: 100%;
+  overflow: hidden;
+  line-height: 22px;
+  
+}
+
+.content-bottom{
+  margin-top: 1rem;
+}
+
+.content-bottom button{
+  height: 30px;
+  width: 70px;
+  border-radius: 30px;
+  border: 1px;
+}
+
+.picture{
+    height: 50%;
+    width: 20%;
+    background-color: aquamarine;
+    margin-top: 12%;
+}
 /*............RIGHT-SECTION..............*/
 
 .right-section {
