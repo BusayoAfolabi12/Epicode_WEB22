@@ -20,7 +20,6 @@ main {
 .left-section {
   height: 100%;
   width: 5%;
-  background-color: antiquewhite;
   position: fixed;
   display: flex;
   flex-direction: column;
@@ -88,7 +87,9 @@ main {
   height: 300%;
   width: 65%;
   box-sizing: border-box;
-  background-color: rgb(166, 191, 191);
+  border: 1px solid rgb(230, 218, 218); 
+  position: absolute;
+  left: 5%;
   
 }
 
@@ -168,6 +169,7 @@ main {
     margin-top: 2rem;
     display: flex;
     flex-direction: row;
+    border-bottom: 1px solid rgb(230, 218, 218);
 }
 
 .content{
@@ -179,7 +181,7 @@ main {
     text-align: left;
 }
 
-.author-info, .content-bottom{
+.author-info{
   height: 40px;
   width: 100%;
   display: flex;
@@ -208,21 +210,44 @@ main {
 }
 
 .content-bottom{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   margin-top: 1rem;
+}
+
+.content-bottom-text, .content-bottom-icons{
+  height: 40px;
+  
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.content-bottom-text p{
+  padding-left: 8px;
+  margin-bottom: 2rem;
+  
+}
+
+.content-bottom-icons img{
+  height: 20px;
+  width: 20px;
+  margin-top: 5px;
+  padding: 8px;
 }
 
 .content-bottom button{
   height: 30px;
   width: 70px;
+  margin-top: 8px;
   border-radius: 30px;
   border: 1px;
 }
 
+
 .picture{
-    height: 50%;
-    width: 20%;
-    background-color: aquamarine;
-    margin-top: 12%;
+    margin-top: 13%; 
 }
 /*............RIGHT-SECTION..............*/
 
@@ -230,4 +255,6 @@ main {
   height: 100%;
   width: 20%;
   background-color: aliceblue;
+  position: absolute;
+  left: 70%;
 }
