@@ -86,9 +86,19 @@
   .bg-green {
     background-color: #19cb98;
   }
+
+
+  .bg-green:hover{
+    background-color:#356b5c;
+    
+  }
   
   .bg-peach {
     background-color: #ffeeda;
+  }
+
+  .bg-peach:hover{
+    background-color: #e4d4c2;
   }
   
   .opacity-50 {
@@ -171,7 +181,6 @@
     margin-left: 6rem;
   }
 
-  
 
   section.details .round-icon {
     color: #c28135;
