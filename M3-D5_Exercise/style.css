@@ -3,7 +3,7 @@
     font-family: Feather;
     font-style: normal;
     font-weight: 400;
-    src: url(/assets/fonts/feather.ttf) format("truetype");
+    src: url(assets/feather.ttf) format("truetype");
   }
   
   /* RESETS */
