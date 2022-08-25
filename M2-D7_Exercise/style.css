@@ -68,6 +68,11 @@ main {
   width: 20px;
 }
 
+.menu-key img:nth-child(5){
+  border-top: 1px solid rgb(230, 218, 218);
+  padding-top: 1rem;
+}
+
 .login-letter {
   height: 25px;
   width: 25px;
