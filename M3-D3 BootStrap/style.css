@@ -1,0 +1,13 @@
+.row{
+    margin-top: 6rem;
+    margin-bottom: 5rem;
+}
+.card{
+    margin-bottom: 1rem;
+}
+
+.card img{
+    height:304 ;
+    object-fit: cover;
+    width: 100%;
+}
