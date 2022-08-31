@@ -33,12 +33,36 @@ console.log(charRemoval(2,"table"))
 
 /*4. Create a function to find and return the largest of three given integers.*/
 
+function largestNumber(number1, number2, number3) {
+    if (number1 > number2 && number1 > number3) {
+      return number1;
+    } else if (number2 > number1 && number2 > number3) {
+      return number2;
+    } else if (number3 > number1 && number3 > number2) {
+      return number3;
+    }
+  }
+  console.log(largestNumber(22, 67, 13));
+  
 
 
+/*5. Create a function to check if two numbers are in the range 40-60 or 70-100. Return true if they do, return false if one (or both) don’t.*/
 
-/*5. Create a function to check if two numbers are in the range 40-60 or 70-100. Return true if they do, return false if one (or both) don’t.
-6. Create a function to create a new string composed of a specified number of copies of a given string. Pass the string and the number of copies as parameters.
-7. Create a function to display the city name if the string begins with “Los” or “New”. Pass the city name as a parameter. Return false if they start with a different string.
+function numRange(r1, r2){
+
+    if( (r1 >= 40 && r1 <= 60) && (r2 >= 70 && r2 <= 100) || (r2 >= 40 && r2 <= 60) && (r1 >= 70 && r1 <= 100) 
+    || (r1 >= 40 && r1 <= 60) && (r2 >= 40 && r2 <= 60) || (r1 >= 70 && r1 <= 100) && (r2 >= 70 && r2 <= 100)){
+        return true;
+    } else{
+        return false;
+    }
+}
+console.log(numRange(45, 62))
+
+/*6. Create a function to create a new string composed of a specified number of copies of a given string. Pass the string and the number of copies as parameters.*/
+
+
+/*7. Create a function to display the city name if the string begins with “Los” or “New”. Pass the city name as a parameter. Return false if they start with a different string.
 8. Create a function to calculate and return the sum of all elements from an array with 3 elements. Pass the array as a parameter.
 9. Create a function to test if an array of length 2 contains 1 OR 3. Return true is it does, false if it doesn’t.
 10. Create a function to test if an array of length 2 DOES NOT contain 1 or 3. Return true if it doesn’t, false if it does.
