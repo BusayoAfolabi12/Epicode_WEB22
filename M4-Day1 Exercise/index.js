@@ -61,18 +61,43 @@ console.log(numRange(45, 62))
 
 /*6. Create a function to create a new string composed of a specified number of copies of a given string. Pass the string and the number of copies as parameters.*/
 
+const createCopies = (passString, num) => {
+    let newString = "";
+    for (let i = 0; i < num; i++) {
+      newString += passString + " ";
+    }
+    return newString;
+  };
+
+  console.log(createCopies("Germany", 6))
 
 /*7. Create a function to display the city name if the string begins with “Los” or “New”. Pass the city name as a parameter. Return false if they start with a different string.
 8. Create a function to calculate and return the sum of all elements from an array with 3 elements. Pass the array as a parameter.
 9. Create a function to test if an array of length 2 contains 1 OR 3. Return true is it does, false if it doesn’t.
 10. Create a function to test if an array of length 2 DOES NOT contain 1 or 3. Return true if it doesn’t, false if it does.
-11. Create a function to find the longest string from a given array of strings. Pass the array as parameter and return the longest string.
-12. Create a function to find the types of a given angle:
+11. Create a function to find the longest string from a given array of strings. Pass the array as parameter and return the longest string.*/
+
+/*12. Create a function to find the types of a given angle:
     Acute angle ⇒ between 0 and 90 degrees. Return acute.
     Right angle ⇒ 90 degree. Return right
     Obtuse angle ⇒ between 90 and 180. Return obtuse
-    Straight angle ⇒ 180 degrees. Return straight
-13. Create a function to find and return the index of the greatest element of a given array of integers that you passed as a parameter
+    Straight angle ⇒ 180 degrees. Return straight */
+
+const angle = function(x){
+    if(x >= 0 && x < 90){
+        return "Acute angle";
+    } else if (x === 90) {
+        return "Right angle";
+    } else if (x > 90 && x < 180) {
+        return "Obtuse angle";
+    }else (x === 180)
+        return "Straight angle"
+    
+}
+
+console.log(angle(122))
+
+/*13. Create a function to find and return the index of the greatest element of a given array of integers that you passed as a parameter
 14. Create a function to find and return the largest even number from an array of integers that is passed a parameter.
 15. Create a function to check from two given integers (passed as parameters) if one is positive and the other is negative. Return true if that’s the case, return false if it’s not.
 16. Create a function to create and return a new string where the first 3 characters are in lower case and the others are in upper case. If the string’s length is less than 3, convert the whole string into uppercase. Pass the original string as a parameter.
