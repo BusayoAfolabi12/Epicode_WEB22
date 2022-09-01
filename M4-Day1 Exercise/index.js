@@ -69,7 +69,7 @@ const createCopies = (passString, num) => {
     return newString;
   };
 
-  console.log(createCopies("Germany", 6))
+  console.log(createCopies("Epicode", 6))
 
 /*7. Create a function to display the city name if the string begins with “Los” or “New”. Pass the city name as a parameter. Return false if they start with a different string.
 8. Create a function to calculate and return the sum of all elements from an array with 3 elements. Pass the array as a parameter.
@@ -94,7 +94,6 @@ const angle = function(x){
         return "Straight angle"
     
 }
-
 console.log(angle(122))
 
 /*13. Create a function to find and return the index of the greatest element of a given array of integers that you passed as a parameter
