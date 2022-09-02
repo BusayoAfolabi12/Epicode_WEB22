@@ -94,7 +94,7 @@ const angle = function(x){
         return "Straight angle"
     
 }
-console.log(angle(122))
+console.log(angle(142))
 
 /*13. Create a function to find and return the index of the greatest element of a given array of integers that you passed as a parameter
 14. Create a function to find and return the largest even number from an array of integers that is passed a parameter.
