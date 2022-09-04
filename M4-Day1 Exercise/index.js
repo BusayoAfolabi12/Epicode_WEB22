@@ -71,9 +71,33 @@ const createCopies = (passString, num) => {
 
   console.log(createCopies("Epicode", 6))
 
-/*7. Create a function to display the city name if the string begins with “Los” or “New”. Pass the city name as a parameter. Return false if they start with a different string.
-8. Create a function to calculate and return the sum of all elements from an array with 3 elements. Pass the array as a parameter.
-9. Create a function to test if an array of length 2 contains 1 OR 3. Return true is it does, false if it doesn’t.
+/*7. Create a function to display the city name if the string begins with “Los” or “New”. Pass the city name as a parameter. Return false if they start with a different string.*/
+
+function beginsWith(str) {
+  let threeCharacters = str.slice(0, 3);
+
+  if (
+    threeCharacters.toLowerCase() === "los" ||
+    threeCharacters.toLowerCase() === "new"
+  ) {
+    return str;
+  } else {
+    return "definitely does not start with Los nor New";
+  }
+}
+
+
+/*8. Create a function to calculate and return the sum of all elements from an array with 3 elements. Pass the array as a parameter.*/
+
+function sumCalculator(array) {
+  let sum = 0;
+  for (let index = 0; index < array.length; index++) {
+    sum += array[index];
+  }
+  return sum;
+}
+
+/*9. Create a function to test if an array of length 2 contains 1 OR 3. Return true is it does, false if it doesn’t.
 10. Create a function to test if an array of length 2 DOES NOT contain 1 or 3. Return true if it doesn’t, false if it does.
 11. Create a function to find the longest string from a given array of strings. Pass the array as parameter and return the longest string.*/
 
