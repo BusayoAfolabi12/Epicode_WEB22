@@ -114,8 +114,11 @@ const angle = function(x){
         return "Right angle";
     } else if (x > 90 && x < 180) {
         return "Obtuse angle";
-    }else (x === 180)
+    }else if (x === 180) {
         return "Straight angle"
+    }else{
+      return "angle out of range"
+    }
     
 }
 console.log(angle(142))
