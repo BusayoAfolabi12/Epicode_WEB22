@@ -125,8 +125,14 @@ console.log(angle(142))
 
 /*13. Create a function to find and return the index of the greatest element of a given array of integers that you passed as a parameter
 14. Create a function to find and return the largest even number from an array of integers that is passed a parameter.
-15. Create a function to check from two given integers (passed as parameters) if one is positive and the other is negative. Return true if that’s the case, return false if it’s not.
-16. Create a function to create and return a new string where the first 3 characters are in lower case and the others are in upper case. If the string’s length is less than 3, convert the whole string into uppercase. Pass the original string as a parameter.
+15. Create a function to check from two given integers (passed as parameters) if one is positive and the other is negative. Return true if that’s the case, return false if it’s not.*/
+
+function signChecker(a, b) {
+  return (a < 0 && b > 0) || (a > 0 && b < 0);
+}
+console.log(signChecker(-35, -6))
+
+/*16. Create a function to create and return a new string where the first 3 characters are in lower case and the others are in upper case. If the string’s length is less than 3, convert the whole string into uppercase. Pass the original string as a parameter.
 17. Create a function to calculate the sum of two integers (passed as parameters). If the sum is in the 50-80 range, return 65, otherwise, return 80.
 18. Create a function to convert a number (passed as a parameter) into a string, basing yourself on this example:
     The number has 3 as a factor ⇒ return Diego
