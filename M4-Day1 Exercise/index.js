@@ -18,7 +18,7 @@ const integer50 = function (a, b) {
     return false;
   }
 };
-console.log(integer50(21, 30));
+console.log(integer50(61, 30));
 
 /*3. Create a function to remove a character at a specified position from a given string: pass the position and the string as parameters, return the new string.*/
 
