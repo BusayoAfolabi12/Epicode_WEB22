@@ -375,3 +375,37 @@ switch (day) {
   case 6:
     console.log("Saturday");
 }
+
+for (i=0; i>0 && i<=5; i++) {
+  console.log(i)
+}
+
+
+for (i = 0; i <= 10; i++) {
+  console.log(i);
+}
+
+for (i=1; i<=5; i++) {
+  console.log(i)
+}
+
+for (i=1; i<=5; i++) {
+  console.log("This is",i)
+}
+console.log("Counting completed")
+
+for (let i=5; i>=1; i--) {
+  console.log("This is",i)
+}
+
+var result = null;
+  console.log(result);
+
+  //try {​
+  //  console.log('Hello');
+  //} catch(err) {​
+  //  console.log('Goodbye');
+  //}
+
+  var str = "Hello";
+str.match("jello");
