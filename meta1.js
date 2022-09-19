@@ -1,4 +1,4 @@
-const consoleStyler = function(color, background, fontSize, txt) {
+/*const consoleStyler = function(color, background, fontSize, txt) {
     message = "%c" + txt;
 
     style =  `color: ${color};`
@@ -32,7 +32,7 @@ const celebrateStyler = function(reason){
 
 
 consoleStyler('#1d5c63', '#ede6db', 40, 'Congrats!');
-celebrateStyler('birthday')
+celebrateStyler('birthday')   */
 
 // Task 1: Build a function-based console log message generator
 function consoleStyler(color, background, fontSize, txt) {
